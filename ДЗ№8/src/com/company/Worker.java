@@ -5,7 +5,7 @@ import com.company.food.Food;
 
 public class Worker {
     //покормить любое животное любой едой
-    void feed(Animal animal, Food food){
+    void feed(Animal animal, Food food)  {
         System.out.println(animal + " + " + food + " = " + animal.eat(food));
     }
 
